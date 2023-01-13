@@ -1,0 +1,39 @@
+<div class="row justify-content-center mt-5">
+  <div class="col-md-4">
+    <form [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+      <div class="form-group">
+        <label>First Name</label>
+        <input
+          class="form-control"
+          type="text"
+          formControlName="firstName"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Last Name</label>
+        <input
+          class="form-control"
+          type="text"
+          formControlName="lastName"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          class="form-control"
+          type="text"
+          formControlName="emailId"
+          required
+        />
+      </div>
+      <br>
+      <div class="form-group">
+        <button class="btn btn-primary btn-block" type="submit">Update</button>
+      </div>
+    </form>
+  </div>
+</div>
