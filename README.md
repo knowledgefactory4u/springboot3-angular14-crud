@@ -1,4 +1,4 @@
-# springboot3-angular14-crud
+# Spring Boot 3 + Angular 14 CRUD Application Example
 <h2>Backend Local setup:</h2>
 
 ```
