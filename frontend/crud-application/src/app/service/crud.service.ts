@@ -12,7 +12,7 @@ import {
   providedIn: 'root',
 })
 export class CrudService {
-  // Node/Express API
+  
   REST_API: string = 'http://localhost:8080/api/v1';
 
   // Http Header
